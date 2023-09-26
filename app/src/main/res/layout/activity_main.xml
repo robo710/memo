@@ -21,17 +21,19 @@
         android:layout_marginBottom="700dp" />
 
     <Button
-        android:id="@+id/savebutton"
+        android:id="@+id/addBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="ADD"
+        android:background="@drawable/add_button"
+        android:text="메모 추가"
+        android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/memoList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
