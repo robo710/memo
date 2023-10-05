@@ -21,4 +21,13 @@
         android:text="내용"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="저장"
+        android:textColor="#fff"
+        android:background="@drawable/add_button"
+        />
+
 </LinearLayout>
